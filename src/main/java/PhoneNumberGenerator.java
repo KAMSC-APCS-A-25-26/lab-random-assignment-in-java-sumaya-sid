@@ -19,7 +19,7 @@ public class PhoneNumberGenerator {
         // TODO: Generate third three digits (XXX)
         // No constraints (000-999)
         int digit5 = generator.nextInt(10);
-        String last Str = String.format("%03d", digit5);
+        String lastStr = String.format("%03d", digit5);
         
         // TODO: Format and display phone number as XXX-XXX-XXX
         // Include the dashes in the output

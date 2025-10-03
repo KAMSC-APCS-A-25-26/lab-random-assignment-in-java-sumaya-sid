@@ -13,7 +13,8 @@ public class DiceRoller {
         System.out.println("Unseeded Die 3: " + dice3);
 
         // 2. One Random object with any seed value (seeded die)
-        int dice4 = generator.nextInt(7);
+        Random generator1 = new Random(2);
+        int dice4 = generator1.nextInt(6) + 1;
         System.out.println("Seeded Die 3: " + dice4);
         // TODO: Generate random integers for dice rolls
         
